@@ -1,7 +1,7 @@
 
 *{
-
     font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
 }
 .navx{
     align-items: center;
@@ -11,7 +11,7 @@
 }
 h2, h1{
     color: #1E0E62;
-    ;
+    
 }
 h1{
     font-size: 58px;
@@ -38,21 +38,37 @@ line-height: 28px;
    /*  gap: 10px;
 } */
 
-@media (max-width: 768px) {
-   
+@media (max-width: 800px) {
+    
+ h2{
+    font-size: 20px;
+ }  
     h1{
-        font-size: 22px;
-        font-weight: 800;
-        width: 250px;
-
+        font-size: 21px;
+        font-weight: 900;
+        width: 78%;
+        padding-left:20%;
+    
+    }
+    .middle{
+    width: 100%;
+   
+    
     }
     .under{
-        font-size: 9px;
-        width: 210px ;
+        font-size: 13px;
+        font-weight: ;
+        width:75%;
         line-height: 18px;
+         padding-left: 20%;
+         
     }
     p{
-        font-size: 9px;
+        font-size: 10px;
+        text-align: center
     }
-    
+    .butttons{
+        padding-top: 40px;
+        justify-content: center;
+    }
 }
