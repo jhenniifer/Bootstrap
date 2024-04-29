@@ -3,9 +3,10 @@
     font-family: "DM Sans", sans-serif;
     box-sizing: border-box;
 }
-.navx{
-    align-items: center;
+.naxx{
+    color: #1E0E62;
 }
+
 .anchor{
     color:rgba(21, 20, 57, 0.7);
 }
@@ -52,6 +53,7 @@ line-height: 28px;
     }
     .middle{
     width: 100%;
+    text-align: center;
    
     
     }
